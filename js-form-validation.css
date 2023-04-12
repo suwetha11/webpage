@@ -1,0 +1,106 @@
+/* apply a background color to the body */
+body {
+  background-color: #e4d9e4;
+}
+
+/* set the font family and size for the entire document */
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* style the h1 element */
+h1 {
+  color: #333;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 2px 2px #f2f2f2;
+}
+
+
+/* style the label element */
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-top: 2rem;
+}
+
+/* style the input elements */
+/* set the width of all input elements to 100% */
+input[type="text"], input[type="password"], select {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px #ccc;
+  width: 90%;
+}
+
+
+/* add margin-top to City field input element */
+input#city {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px #ccc;
+  width: 70%;
+}
+
+/* style the select element */
+select {
+  width: 90%
+}
+
+/* style the submit button */
+input[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-shadow: 1px 1px #444;
+}
+
+/* style the error messages */
+span[id$="_err"] {
+  display: block;
+  color: #c44569;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  text-shadow: 1px 1px #f2f2f2;
+}
+
+/* remove bullets from ul */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* center form box */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* adjust text box sizes */
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box select {
+  width: 100%;
+  max-width: 300px;
+}
